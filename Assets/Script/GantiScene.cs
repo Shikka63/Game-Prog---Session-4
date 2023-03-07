@@ -5,8 +5,9 @@ using UnityEngine.SceneManagement;
 
 public class GantiScene : MonoBehaviour
 {
-   public void ChangeMyScene(string namaScene)
+    public void ChangeMyScene(string namaScene)
     {
         SceneManager.LoadScene(namaScene);
     }
+
 }
